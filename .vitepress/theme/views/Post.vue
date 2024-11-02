@@ -54,7 +54,7 @@
       <article class="post-article s-card">
         <!-- 过期提醒 -->
         <div class="expired s-card" v-if="postMetaData?.expired >= 180">
-          本文发表于 <strong>{{ postMetaData?.expired }}</strong> 天前，其中的信息可能已经事过境迁
+          本文发表于 <strong>{{ postMetaData?.expired }}</strong> 天前，时过境迁，其中的信息可能已经不再适用性
         </div>
         <!-- AI 摘要 -->
         <ArticleGPT />
